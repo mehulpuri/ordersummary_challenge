@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url('D:/Web Dev/ordersummary-challenge/images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.box {
+  width:450px;
+  border-radius: 15px;
+  background: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#hero {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 24px;
+  color: hsl(223, 47%, 23%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0px;
+}
+
+.content {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  font-weight: 300;
+
+}
+.content > p{
+  margin: 10px auto 15px; ;
+  padding: 0px 30px 10px;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.plan {
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: 6%;
+  width: 87%;
+  border-radius: 15px;
+  background: hsl(225, 100%, 96%);
+  margin-bottom: 7%;
+}
+
+.sub-plan {
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 44%;
+}
+
+.price {
+  /* border: 1px solid; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+.change {
+  font-size: 14px;
+  color: hsl(245, 75%, 52%);
+}
+.change:hover{
+  opacity: 0.5;
+}
+#music{
+  position:relative;
+  right: 10%;
+}
+.plan > h6 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+
+.payment{
+  position: relative;
+  left: 7%;
+  width: 85%;
+  height: 45px;
+  border-radius: 10px;
+  background: hsl(245, 75%, 52%);
+  font-weight: 700;
+  box-shadow:  0px 11px 10px #c5bee8;
+  margin-bottom: 10px;
+}
+.payment:hover{
+  opacity: 0.6;
+}
+#cancel{
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  font-weight: 700;
+}
+#cancel:hover{
+  filter: brightness(0.4);
+}
+
+@media only screen and (max-width: 400px) {
+  .box {
+    width:100vw;
+
+  }
+}
