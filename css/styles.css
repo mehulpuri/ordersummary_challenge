@@ -142,7 +142,7 @@ h6 {
 
 @media only screen and (max-width: 400px) {
   .box {
-    width:100vw;
+    width:90vw;
 
   }
 }
