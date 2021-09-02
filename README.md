@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://mehulpuri.github.io/ordersummary_challenge/)
+- Solution URL: [Click Me](https://mehulpuri.github.io/ordersummary_challenge/)
 
 ### Built with
 
