@@ -40,7 +40,5 @@ Users should be able to:
 - [Color Picker](https://html-color-codes.info/colors-from-image/) - This helped me pick the exact shadow color.
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@mehulpuri](https://www.frontendmentor.io/profile/mehulpuri)
 
